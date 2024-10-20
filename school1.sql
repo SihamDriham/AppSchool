@@ -9,9 +9,3 @@ create table Etudiant(
     sexe varchar(20),
     photo varchar(50)
 );
-
-INSERT INTO Etudiant (nom, prenom, ville, sexe) VALUES
-('DRIHAM', 'Siham', 'Safi', 'F'),
-('LOUMANI', 'Amal', 'Rabat', 'F');
-
-drop table Etudiant;
